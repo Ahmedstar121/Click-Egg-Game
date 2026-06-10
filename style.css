@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+body {
+    width: 100%;
+    height: 100Vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial;
+}
+.Container img{
+    border-radius: 25px;
+    padding: 60px;
+    background-color: rgb(57, 71, 71);
+    width: 40%;
+    height: 30%;
+}
+button {
+    margin: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+.progreass {
+    margin-left: 60px;
+    margin-bottom: 25px;
+    transform: center;
+    width: 80%;
+    height: 20px;
+    background: #c2b5b5;
+}
+h1{
+    margin-bottom: 15px;
+}
+#clicksCount{
+margin-bottom: 20px;
+font-size: larger;
+}
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: rgb(61, 100, 94);
+}
