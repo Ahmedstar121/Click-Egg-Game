@@ -44,3 +44,11 @@ font-size: larger;
     width: 0%;
     background: rgb(61, 100, 94);
 }
+@media(max-width:600px){
+    body{
+        height: 80vh;
+    }
+    h1{
+        font-weight: 900;
+    }
+}
